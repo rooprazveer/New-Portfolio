@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Protest Strike";
+  src: url("../assets/Protest_Strike/ProtestStrike-Regular.ttf") format("truetype");
+}
+
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  background-color:transparent;
+  color: #915eff;
+  padding: 10px 10px;
+  font-size: 4rem;
+}
+
+.marquee {
+  display: inline-block;
+}
+
+.marquee-item {
+  display: inline-block;
+  padding: 0 50px;
+  font-weight: 500;
+  font-family: "Protest Strike", sans-serif; /* Use the custom font */
+}
